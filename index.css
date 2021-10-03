@@ -142,10 +142,12 @@ h1 {
 
 .main-footer {
     text-align: center;
+    background-blend-mode: overlay;
     background-image: url("../utils/assets/images/image-footer.jpg");;
     background-repeat: no-repeat;
     height: 250px;
     background-size: auto;
+    background-color: #4682B4;
     width: 100%;
     left: 250px;
     position: absolute;
@@ -158,12 +160,20 @@ h1 {
 
 #sidetext {
     position: real;
-    left: px;
+    left: 30px;
     width: 30%;
     color: #fff;
+    font-size: 40px;
+    
    
 }
 
+#middletext {
+    position: relative;
+    
+    
+    
+}
 
 .main-footer #thirdbutton {
     position: absolute;
