@@ -35,14 +35,14 @@
 .mainpic{
     width: 17%;
     position: absolute;
-    left: 330px;
+    left: 200px;
     top: 170px;
 }
 
 .mainpi{
     width: 17%;
     position: absolute;
-    right: 330px;
+    right: 200px;
     top: 200px;
 }
 
@@ -81,28 +81,28 @@
 .mainpic1 {
     width: 11%;
     position: absolute;
-    left: 470px;
+    left: 350px;
     top: 500px;
 }
 
 .mainpic2 {
     width: 11%;
     position: absolute;
-    left: 690px;
+    left: 515px;
     top: 500px;
 }
 
 .mainpic3 {
     width: 11%;
     position: absolute;
-    right: 690px;
+    right: 515px;
     top: 500px;
 }
 
 .mainpic4 {
     width: 11%;
     position: absolute;
-    right: 470px;
+    right: 350px;
     top: 500px;
 }
 
@@ -151,11 +151,13 @@ h1 {
     background-size: cover;
     background-color: #4682B4;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 20px;
     position: absolute;
     display: flex;
+    flex-direction: row;
     opacity: 45%;
     top: 1200px;
+    height: 300px;
 }
 
 
@@ -167,6 +169,7 @@ h1 {
     padding-right: 300px;
     justify-content: center;
     opacity: 100%;
+    margin: 20px;
 }
 
 
@@ -176,7 +179,6 @@ h1 {
     padding-right: 100px;
     color: #fff;
     font-size: 50px;
-    
     
    
 }
@@ -191,19 +193,23 @@ h1 {
     
 }
 
-.main-footer #thirdbutton {
+.main-footer {
     position: absolute;
     background-color: #9370DB;
     font-size: 18px;
 
-    padding: 12px 20px 12px 20px;
-    border-radius: 24px;
+    /* padding: 12px 20px 12px 20px; */
+    /* border-radius: 24px; */
     
-    display: inline-block;
+    /* display: inline-block; */
     
-   border: none;
-    text-align: center;
+   /* border: none; */
+    /* text-align: center; */
     
     
 }
-
+#thirdbutton{
+    width: 120px;
+    height: 50px;
+    border-radius: 24px;
+}
